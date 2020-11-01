@@ -1,26 +1,10 @@
-import { createGlobalStyle, ThemeProvider } from 'styled-components'
-
-const GlobalStyle = createGlobalStyle`
-  body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-`
-
-const theme = {
-  colors: {
-    primary: '#0070f3',
-  },
-}
-
+import Theme from "../components/theme/index";
 export default function App({ Component, pageProps }) {
   return (
-    <>
-      <GlobalStyle />
-      <ThemeProvider theme={theme}>
+    <React.Fragment>
+      <Theme>
         <Component {...pageProps} />
-      </ThemeProvider>
-    </>
-  )
+      </Theme>
+    </React.Fragment>
+  );
 }
