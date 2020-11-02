@@ -1,7 +1,7 @@
 import { createGlobalStyle, ThemeProvider } from "styled-components";
 
 import Meta from "./meta";
-import Footer from "./footer/index.jsx";
+import Footer from "./footer/container.jsx";
 import Navigation from "./navigation";
 
 const Theme = ({ children }) => {
@@ -26,14 +26,14 @@ const theme = {
 
 const GlobalStyle = createGlobalStyle`
 @font-face {
-  font-family: "EBGaramond";
+  font-family: "NetflixSans";
   src: url("/fonts/NetflixSans/NetflixSans_W_Rg.woff2");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
 }
 @font-face {
-  font-family: "EBGaramond";
+  font-family: "NetflixSans";
   src: url("/fonts/NetflixSans/NetflixSans_W_Md.woff2");
   font-style: medium;
   font-weight: 500;
@@ -80,6 +80,12 @@ const GlobalStyle = createGlobalStyle`
   a {
     font-size: 13px;
     text-decoration: none;
+  }
+  a:link {
+    color: ${theme.textFaded};
+  }
+  a:visited  {
+    color: ${theme.textFaded};
   }
 `;
 

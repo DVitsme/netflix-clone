@@ -12,13 +12,15 @@ const Meta = () => (
       rel="preload"
       href="/fonts/NetflixSans/NetflixSans_W_Rg.woff2"
       as="font"
-      crossOrigin=""
+      type="font/woff2"
+      crossOrigin
     />
     <link
       rel="preload"
       href="/fonts/NetflixSans/NetflixSans_W_Md.woff2"
       as="font"
-      crossOrigin=""
+      type="font/woff2"
+      crossOrigin="true"
     />
 
     <title>Netflix Clone || </title>
