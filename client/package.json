@@ -8,10 +8,13 @@
     "test": "standard && node my-tests.js"
   },
   "dependencies": {
+    "firebase": "^8.0.0",
+    "fuse.js": "^6.4.3",
     "next": "latest",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
     "react-is": "^16.8.0",
+    "slugify": "^1.4.6",
     "styled-components": "^5.0.0"
   },
   "devDependencies": {
