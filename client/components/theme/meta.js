@@ -10,13 +10,13 @@ const Meta = () => (
     <link rel="shortcut icon" href="/images/favicon/nficon2016.ico" />
     <link
       rel="preload"
-      href="/fonts/fonts/NetflixSans_W_Rg.woff2"
+      href="/fonts/NetflixSans/NetflixSans_W_Rg.woff2"
       as="font"
       crossOrigin=""
     />
     <link
       rel="preload"
-      href="/fonts/fonts/NetflixSans_W_Md.woff2"
+      href="/fonts/NetflixSans/NetflixSans_W_Md.woff2"
       as="font"
       crossOrigin=""
     />
