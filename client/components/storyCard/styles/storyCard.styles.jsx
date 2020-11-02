@@ -13,20 +13,20 @@ export const Wrapper = styled.div`
   width: 100%;
 `;
 
-export const Container = styled.div`
-  @media (max-width: 1000px) {
-    ${Section}:last-of-type h2 {
-      margin-bottom: 5rem;
-    }
-  }
-`;
-
 export const Section = styled.section`
   display: flex;
   border-bottom: 8px solid #222;
   padding: 50px 5%;
   color: ${(props) => props.theme.white};
   overflow: hidden;
+`;
+
+export const Container = styled.div`
+  @media (max-width: 1000px) {
+    ${Section}:last-of-type h2 {
+      margin-bottom: 5rem;
+    }
+  }
 `;
 
 export const Direction = styled.div`

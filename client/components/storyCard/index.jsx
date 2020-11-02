@@ -7,7 +7,7 @@ import {
   Title,
   SubTitle,
   Image,
-} from "./styles/StoryCard.component";
+} from "./styles/storyCard.styles";
 
 const StoryCard = ({ children, direction = "row", ...restProps }) => {
   return (
@@ -51,4 +51,5 @@ StoryCard.SubTitle = function StoryCardSubTitle({ children, ...restProps }) {
 StoryCard.Image = function StoryCardImage({ ...restProps }) {
   return <Image {...restProps} />;
 };
+
 export default StoryCard;
