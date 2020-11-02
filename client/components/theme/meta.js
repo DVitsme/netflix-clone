@@ -9,9 +9,16 @@ const Meta = () => (
     }
     <link rel="shortcut icon" href="/images/favicon/nficon2016.ico" />
     <link
-      type="text/css"
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300&display=swap"
-      rel="stylesheet"
+      rel="preload"
+      href="/fonts/fonts/NetflixSans_W_Rg.woff2"
+      as="font"
+      crossOrigin=""
+    />
+    <link
+      rel="preload"
+      href="/fonts/fonts/NetflixSans_W_Md.woff2"
+      as="font"
+      crossOrigin=""
     />
 
     <title>Netflix Clone || </title>
